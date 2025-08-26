@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+header{
+    width: 100%; 
+    background-color: #A8C3A4   ;
+    /* background-color: rgba(1, 1, 1,0); */
+    padding: 0.5rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 999;
+    top: 0; 
+    transition: top 1s;  
+}
+
+.remove{
+    top: -150px
+}
+.logo{
+    width: 5rem;
+}
+.logo img{
+    padding: 10px 0;
+    width: 100%;
+}
+.navi_list{
+    display: flex;
+    gap: 70px;
+    padding: 18px 0;
+    text-align: center;
+    
+}
+.navi_list>li>a{
+    font-family: 'NoonnuBasicGothicRegular';
+    color: #0A400C;
+    
+}
+
+
+
+
+
+#shp:hover>.shopping{
+
+    display: flex;
+
+}
+.about{ 
+    position: fixed;
+    display: none;
+    background-color: rgba(1, 1, 1,0) ;
+  
+}
+#abt:hover>.about{
+    display: block;
+}
+
+.survice{
+    display: none; 
+    position: fixed;
+    background-color: rgba(1, 1, 1,0) ;
+    gap: 20px;
+    
+
+    
+}
+#sur:hover>.survice{
+    display: flex;
+    
+}
+#merga:hover>.mergagine{
+    display: block;
+
+}
+.mergagine{
+    display: none;
+    position: fixed;
+    background-color: rgba(1, 1, 1,0) ;
+    
+    
+}
+#merga:hover>.mergagine{
+    display: block;
+}
+#bran:hover>.brand{
+    display: block;
+}
+.brand{
+    position: fixed;
+    overflow: hidden;
+    display: none; 
+    background-color: rgba(1, 1, 1,0) ;
+    
+}
+
+.navi_list>li:first-child:hover{
+    display: block;
+}
+.navi_list>li{  
+    font-size: 1vw; 
+    font-weight: 600;
+}
+.navi_icon{ 
+    gap: 20px;
+    display: flex;   
+}
+
+#search img,#cart img,#login img{
+    width: 28px; height: 28px;
+    padding: 15px 0;
+}
+#burgur{
+    width: 40px; padding-top: 20px;
+    cursor: pointer;
+}
+#burgur img{
+    width: 100%;
+}
+.navi_icon>li:last-child{
+    display: none;
+}
+.mobileNavigation{
+    display: flex;
+    justify-content: start;
+}
+.mobileBox{
+    width: 100%; height: 100vh;
+    background-color: rgba(10, 64, 12,0.3);
+    z-index: 9998;
+    position: fixed;
+}
+.mobileNav{
+    width: 190px; height:100vh;
+    padding: 20px 30px;
+   position:fixed;
+   z-index: 9999;
+       background-color: #A8C3A4   ;
+
+   right: 0;
+}
+.mobileNavBox{
+    height: 100%;
+  display: inline-block;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.mobile_esc{
+    font-size: 4vw;
+    font-weight: bold;
+    position: absolute;
+    top: 0; left: 0;
+    color: #3C4A3E;
+     font-family: 'NoonnuBasicGothicRegular';
+}
+.mobileNavBox>li{
+    font-family: 'NoonnuBasicGothicRegular';
+    font-size: 4vw;
+    padding-top: 20px;
+    color: #3E3E3E;
+    cursor: pointer;
+}
+.mobileNavBox>li>ul{
+    display: none;
+
+}
+.mobileNavigation{
+    display: none;
+}
+
+
+@media screen and (max-width:1024px) {
+    header{
+        padding: 1rem 3rem;
+    }
+     .navi_list>li{
+        font-size: 1.5vw;
+    }
+     #search{
+        width: 20px;
+    }
+    #search img{
+        width: 100%;
+    }
+    #cart{
+        display: none;
+    }
+    #login{
+        display: none;
+
+    }
+  
+
+}
+
+@media screen and (max-width:740px) {
+    header{
+        padding: 1rem 2rem;
+    }
+    .logo{
+        width: 4rem;
+    }
+    
+    .navi_list{
+        display: none;
+    }
+   
+    #search{
+        width: 25px;
+    }
+    #search img{
+        width: 100%;
+    }
+    #cart{
+        display: none;
+    }
+    #login{
+        display: none;
+
+    }
+   
+      #burgur{
+        width: 20px;
+        display: block;
+    }
+}

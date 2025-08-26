@@ -1,0 +1,664 @@
+    
+
+
+
+
+main{
+    width:100%; ;
+    background-color:#F6F1E9;
+    
+    
+    
+}
+.mainOpaque{
+    width: 100%; height: 90vh;
+    background-color: rgba(60, 72, 62, 0.7);
+    position: relative;
+    position:absolute;
+    z-index: 99;
+    top: 0; left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainOpaque>h2{
+    font-family: 'NoonnuBasicGothicRegular';
+    font-size: 6.5rem;
+    font-weight: 400;
+    color: #F6F1E9;
+    position: absolute;
+    left: 10%;
+
+    
+}
+.mainSlide{
+    max-width:100vw;
+    box-sizing: border-box;
+}
+
+.mainWrap{
+    
+    display: flex;
+}
+
+main .mainSlideBox{
+    width: 100vw; height: 90vh
+}
+.mainSlideBox>img{
+    width: 100%; height: 100%;
+    
+}
+.index_main_tit{
+    
+    font-size: 3vw  ;
+    font-weight: 600;
+    text-align: center;
+    padding: 100px 40px;
+    box-sizing: border-box;
+    color: #0A400C;
+    padding-top: 80px;
+    
+}
+main .swiper{
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+   
+
+    
+}
+
+main .swiper-slide{
+    padding: 0 2rem;
+    box-sizing: border-box;
+
+}
+
+.mainItemList{
+    display: flex;
+
+}
+.mainItem .mainItemBox{
+    width: clac((100% - 40px)/ 3);
+}
+.mainItemImg>img{
+    width: 100%;
+    height:40rem;
+}
+.mainItemTxt>h2{
+    font-size: 1.2rem;
+    color: #0A400C;
+    font-weight: 600;
+    letter-spacing: -0.04em;
+    margin-bottom: 1rem;
+}
+.mainItemTxt>h2:hover{
+    color: rgba(10, 64, 12, 0.5);
+}
+.price{
+    display: flex;
+    gap: 20px;
+}
+.price>p:nth-child(1){
+    font-size: 1.2rem;
+    color: #0A400C;
+    font-weight: bold;
+}
+.price>p:nth-child(2){
+    font-size: 1.2rem;
+    color: rgba(10, 64, 12, 0.5);
+    text-decoration: line-through;
+    font-weight: bold;
+}
+
+.discoutBox{
+    display: flex;
+}
+.discoutBox>p{
+    line-height: 1;
+    border: 1px solid #0A400C;
+    font-size: 1rem;
+    color: #0A400C;
+    padding: 0.4rem 1rem;
+    border-radius: 100px;
+    
+}
+.animateTxt{
+
+    width: 100%;
+    margin-top: 50px;
+    position: relative;
+    height: 300px;
+    overflow-y: hidden;
+    overflow-x: clip;
+    padding-bottom: 10px;
+
+    }
+
+    .animateTxt>div{
+
+        white-space: nowrap;
+        overflow: hidden;
+        position: absolute;
+        width: 100%;  
+
+    }
+
+    .animateTxt h2{
+
+        width: 100%;
+        text-align: center;
+        font-weight: bold;
+        font-size: 5rem;
+        /* padding: 15px; */
+        font-weight: bold;
+        color: #0A400C;
+        display: inline-block;
+        animation: scroll-left 20s linear infinite;
+        box-sizing: border-box;
+
+    }
+
+    @keyframes scroll-left {
+
+        from { transform: translateX(0); }
+
+        to { transform: translateX(-100%); }
+
+      }
+/* .animateTxt{
+    overflow-x: clip;
+
+    position: relative;
+}
+.animateTxt>div{
+    width: 100%;
+    white-space: nowrap;
+    position: absolute;
+    overflow: hidden;
+}
+.animateTxt h2{
+    width: 100%;
+    font-size: 10rem;
+    display: inline-block;
+    color: #0A400C;
+    animation: scroll-left 20s linear infinite;
+
+}
+
+@keyframes scroll-left{ 
+    from {transform: translateX(0);}
+    to {transform: translateX(-100);}
+} */
+
+
+.mainNews{
+    width: 100%; height: 90vh;
+    padding: 0 7em;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    box-sizing: border-box;
+    gap: 2.5rem;
+}
+.mainNews>div:nth-child(1){
+    background-image: url(./../img/withe_bottle.jpg);
+    background-position: center center;
+    background-size: cover;
+    
+}
+.mainNews>div:nth-child(2){
+    background-image: url(./../img/green_zerowaste.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.arrowPosition{
+    position: relative;
+}
+.arrowPosition>div{
+    color: #0A400C;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+.arrowPosition>div>h2{
+    font-size: 3.75rem;
+    font-weight: 600;
+}
+.arrowPosition>div>div{
+    border: 2px solid #0A400C;
+    display: inline-block;
+    padding:0 30px;
+    border-radius: 50px;
+}
+.arrowBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+ .arrowBox>p{
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+.arrowPosition>div>div img{ 
+    width: 16px;height: auto;
+    align-items: center;
+   
+    
+
+}
+.mainNews>div:nth-child(4){
+    background-image: url(./../img/zeroWasteZone.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.mainNews>div:nth-child(5){
+    background-image: url(./../img/zeroWasteORGA.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.mainNews>div:nth-child(6){
+    background-image: url(./../img/zeroWasteErath.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.mainTxtScript{
+    display: flex;
+    margin-top: 100px;
+    padding: 0 5rem;
+    box-sizing:border-box;
+}
+.mainTxtScript p{
+    color: #0A400C;
+    font-size: 6rem;
+}
+.greenIconAnimate>img{
+    font-size: 0;
+    animation: rotation 6s linear infinite;
+}
+@keyframes rotation {
+    100% { rotate: 360deg;}
+}
+
+.mainBottom{
+    width: 100%; height: 70vh;
+    background-image: url(./../img/zeroWasteBottomIm.avif);
+    background-size: cover;
+    background-position: center center;
+    margin-top: 100px;
+    position: relative;
+}
+.mainBottom>div{   
+    position: absolute;
+    top: 40%; 
+    left: 50%;
+    transform: translate(-50%);
+
+}
+.mainBottom>div h2{
+    font-size: 6rem;
+    font-weight: 600;
+    color: #F6F1E9;
+}
+.mainBottom>div p{
+    font-size: 2rem;
+    font-weight: 400;   
+    color:#F6F1E9;
+    text-align: center  ;
+}
+.mainBottom>div p>img{
+    width: 24px;
+}
+
+
+
+
+@media screen and (max-width:1280px) {
+    .mainItemImg>img{
+        width: 100%;
+        height:30rem;
+    }
+    
+}
+
+
+@media screen  and (max-width:1024px){
+    .mainOpaque{
+    width: 100%; height: 60vh;
+    background-color: rgba(60, 72, 62, 0.7);
+    position: relative;
+    position:absolute;
+    z-index: 99;
+    top: 0; left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainOpaque>h2{
+    font-family: 'NoonnuBasicGothicRegular';
+    font-size: 4rem;
+    font-weight: 400;
+    color: #F6F1E9;
+    position: absolute;
+    left: 10%;
+
+    
+}
+    main .mainSlideBox{
+        width: 100vw; height: 60vh
+    }
+
+    .mainItemImg>img{
+        width: 100%;
+        height:20rem;
+    }
+    .mainItemTxt>h2{
+        font-size: 1.5rem;
+        color: #0A400C;
+        font-weight: 600;
+        letter-spacing: -0.04em;
+        margin-bottom: 1rem;
+    }
+    .discoutBox>p{
+        line-height: 1;
+        border: 1px solid #0A400C;
+        font-size: 1rem;
+        color: #0A400C;
+        padding: 0.2rem 0.7rem;
+        border-radius: 100px;
+        
+    }
+   
+    .animateTxt h2{
+        width: 100%;
+        text-align: center;
+        font-weight: bold;
+        font-size: 5rem;
+        /* padding: 15px; */    
+        font-weight: bold;
+        color: #0A400C;
+        display: inline-block;
+        animation: scroll-left 20s linear infinite;
+        box-sizing: border-box;
+
+    }
+    .mainNews{
+        width: 100%; height: 60vh;
+        padding: 0 7em;
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr;
+        box-sizing: border-box;
+        gap: 2.5rem;
+    }
+    .arrowPosition>div{
+        color: #0A400C;
+        position: absolute;
+        top: 30%;
+        left: 10%;
+    }
+    .arrowPosition>div>h2{
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    
+    .arrowBox>p{
+        margin: 0;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .mainTxtScript p{
+        color: #0A400C;
+        font-size: 4rem;
+    }
+    p>.border {
+        border: 3px solid #0A400C;
+        border-radius: 200px;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+    .mainBottom{
+        width: 100%; height: 60vh;
+        background-image: url(./../img/zeroWasteBottomIm.avif);
+        background-size: cover;
+        background-position: center center;
+        margin-top: 100px;
+        position: relative;
+    }
+    .mainBottom>div h2{
+        font-size: 4rem;
+        font-weight: 600;
+        color: #ecf7e1;
+    }
+
+
+    
+
+}
+@media screen and (max-width:780px){ 
+        .mainOpaque{
+    width: 100%; height: 50vh;
+    background-color: rgba(60, 72, 62, 0.7);
+    position: relative;
+    position:absolute;
+    z-index: 99;
+    top: 0; left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainOpaque>h2{
+    font-family: 'NoonnuBasicGothicRegular';
+    font-size: 3rem;
+    font-weight: 400;
+    color: #F6F1E9;
+    position: absolute;
+    left: 10px;
+
+    
+}
+
+main .swiper-slide{
+    padding: 0 2rem;
+    box-sizing: border-box;
+
+}
+
+    main .mainSlideBox{
+        width: 100vw; height: 50vh
+    }
+    .index_main_tit{
+    
+        font-size: 6vw  ;
+        font-weight: 600;
+        text-align: center;
+        padding: 100px 40px;
+        box-sizing: border-box;
+        color: #0A400C;
+        padding-top: 80px;
+        
+    }
+    main .mainItem{
+        width: 100%;
+        padding: 0 0.5rem;
+        box-sizing: border-box;
+        
+        
+    }
+    .mainItemImg>img{
+        width: 100%;
+        height:30vh;
+    }
+    .mainNews{
+        width: 100%; height: 120vh;
+        padding: 0 2em;
+        display: grid;
+        grid-template-columns:1fr  ;
+        box-sizing: border-box;
+        gap: 2.5rem;
+    }
+    .mainTxtScript p{
+        color: #0A400C;
+        font-size: 3rem;
+    }
+    .animateTxt{
+        width: 100%;
+        margin-top: 50px;
+        position: relative;
+        height: 100px;
+        overflow-y: hidden;
+        overflow-x: clip;
+        padding-bottom: 10px;
+    
+        }
+    .animateTxt h2 {
+        width: 100%;
+        text-align: center;
+        font-weight: bold;
+        font-size: 2rem;
+        /* padding: 15px; */
+        font-weight: bold;
+        color: #0A400C;
+        display: inline-block;
+        animation: scroll-left 20s linear infinite;
+        box-sizing: border-box;
+    }
+    
+    .arrowPosition>div>div{
+        border: 2px solid #0A400C;
+        display: inline-block;
+        padding:0 10px;
+        border-radius: 30px;
+        position: relative;
+    }
+    .greenIconAnimate>img{
+        position: absolute;
+        width: 10vw;
+        font-size: 0;
+        animation: rotation 6s linear infinite;
+    }
+    .mainTxtScript p {
+        color: #0A400C;
+        font-size: 1.5rem;
+    }
+    .mainBottom{
+        width: 100%; height: 40vh;
+        background-image: url(./../img/zeroWasteBottomIm.avif);
+        background-size: cover;
+        background-position: center center;
+        margin-top: 100px;
+        position: relative;
+    }
+    .mainBottom>div h2{
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #ecf7e1;
+    }
+    .mainBottom>div p{
+        font-size: 1em; 
+        font-weight: 600;
+        color: #ecf7e1;
+    }
+  
+
+}
+@media screen and (max-width:400px) {
+            .mainOpaque{
+    width: 100%; height: 40vh;
+    background-color: rgba(60, 72, 62, 0.7);
+    position: relative;
+    position:absolute;
+    z-index: 99;
+    top: 0; left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainOpaque>h2{
+    font-family: 'NoonnuBasicGothicRegular';
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #F6F1E9;
+    position: absolute;
+    left: 15%;
+   
+
+    
+}
+    main .mainSlideBox{
+        width: 100vw; height: 40vh
+    }
+}
+
+
+
+
+.color{
+    display: flex;
+    gap: 7px;
+}
+
+
+.green{
+    width: 7px; height: 7px;
+    background-color: green;
+    border: 1px solid green;
+}
+.skyBlue{
+    width: 7px; height: 7px;
+    background-color: skyblue;
+    border: 1px solid skyblue;
+}
+.orange{
+    width: 7px; height: 7px;
+    background-color: orange;
+    border: 1px solid orange;
+}
+.purple{
+    
+    width: 7px; height: 7px;
+    background-color: purple;
+    border: 1px solid purple;
+}
+.pink{
+    width: 7px; height: 7px;
+    background-color: pink;
+    border: 1px solid pink;
+}
+.yellow{
+    width: 7px; height: 7px;
+    background-color: #f2edc8;
+    border: 1px solid #f2edc8;
+}
+.gray{
+    width: 7px; height: 7px;
+    background-color: #9E9E9E;
+    border: 1px solid #9E9E9E;
+}
+.red{
+    width: 7px; height: 7px;
+    background-color: #a84740;
+    border: 1px solid #a84740;
+}
+.white{
+    width: 7px; height: 7px;
+    background-color: white;
+    border: 1px solid rgb(133, 133, 133);
+}
+.border{
+    border: 5px solid #0A400C; 
+    border-radius: 200px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.black{
+     width: 7px; height: 7px;
+    background-color: black;
+    border: 1px solid black; 
+}
+.blue{
+     width: 7px; height: 7px;
+    background-color: blue;
+    border: 1px solid blue; 
+}

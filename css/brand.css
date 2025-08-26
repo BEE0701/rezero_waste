@@ -1,0 +1,312 @@
+main {
+    background-color: #F6F1E9;
+}
+
+.textConBox {
+    width: 100%;
+    padding: 11.683rem 0;
+    box-sizing: border-box;
+
+}
+
+
+.textBox {
+    font-size: 7.25rem;
+    text-align: center;
+    font-family: 'NoonnuBasicGothicRegular';
+    line-height: 1.8;
+    font-weight: 600;
+    color: #0A400C;
+    position: relative;
+
+
+}
+
+.textBox>#recycle {
+    width: 170px;
+    animation: float 3s ease-in-out infinite;
+}
+
+.textBox>#support {
+    width: 140px;
+    position: absolute;
+    right: 9.4%;
+    bottom: 100%;
+
+
+}
+
+.textBox>#propeller {
+    width: 140px;
+    position: absolute;
+    right: 9.4%;
+    top: -110%;
+    animation: rotation 1s linear infinite;
+
+}
+
+@keyframes rotation {
+    100% {
+        rotate: 360deg;
+    }
+}
+
+
+
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+
+    50% {
+        transform: translatey(-20px);
+    }
+
+    100% {
+
+        transform: translatey(0px);
+    }
+}
+.brandImg{
+    width: 100%; height: 90vh;
+    background-image: url(./../img/yellow-cups1280.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.zeroWasteAbout{
+    padding: 5rem 12rem;
+}
+.zeroWasteAboutBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.zeroWasteAboutBox .aboutTextBox {
+    width: 50%;
+    padding: 2rem;
+}
+
+.zeroWasteAboutBox:nth-child(even) {
+    flex-direction: row-reverse;
+}
+.zeroWasteAboutBox .imgBox {
+    width: 50%;
+}
+
+.zeroWasteAboutBox .imgBox img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.zeroWasteAboutBox h2{
+    font-size: 4.5vw;
+    font-family: 'NoonnuBasicGothicRegular';
+    color: #0A400C;
+    text-align: center;
+}
+.zeroWasteAboutBox p{
+    font-size: 16px;
+    color: #3C4A3E;
+    text-align: center;
+}
+@media screen and (max-width:1460px) {
+    .textBox {
+        font-size: 5.25rem;
+        text-align: center;
+        font-family: 'NoonnuBasicGothicRegular';
+        line-height: 1.8;
+        font-weight: 600;
+        color: #0A400C;
+
+
+    }
+
+    .textBox>#support {
+        width: 100px;
+        position: absolute;
+        right: 8.4%;
+        bottom: 100%;
+
+
+    }
+
+    .textBox>#propeller {
+        width: 100px;
+        position: absolute;
+        right: 8.4%;
+        top: -110%;
+        animation: rotation 1s linear infinite;
+
+    }
+}
+@media screen and (max-width:1340px) {
+   
+    .zeroWasteAboutBox .aboutTextBox {
+        font-size: 4vw;
+}
+        
+@media screen and (max-width:1240px) {
+    
+.zeroWasteAboutBox{
+    display: block;
+    
+    align-items: center;
+    margin-bottom: 5rem;
+}
+.zeroWasteAboutBox .imgBox {
+    width: 100%;
+}
+
+
+}
+
+}
+
+@media screen and (max-width:1047px) {
+    .textBox {
+        font-size: 5.25rem;
+        text-align: center;
+        font-family: 'NoonnuBasicGothicRegular';
+        line-height: 1.8;
+        font-weight: 600;
+        color: #0A400C;
+        position: relative;
+
+
+    }
+
+    .textBox>#support {
+        width: 180px;
+        position: absolute;
+        right: 8.4%;
+        top: 50%;
+
+
+    }
+
+    .textBox>#propeller {
+        width: 180px;
+        position: absolute;
+        right: 8.4%;
+        top: 50%;
+        animation: rotation 1s linear infinite;
+
+    }
+    .brandImg{
+    width: 100%; height: 50vh;
+    background-image: url(./../img/yellow-cups1280.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.zeroWasteAboutBox p{
+    font-size: 14px;
+    color: #3C4A3E;
+}
+}
+
+@media screen and (max-width:811px) {
+    .textBox {
+        font-size: 3.25rem;
+        text-align: center;
+        font-family: 'NoonnuBasicGothicRegular';
+        line-height: 1.8;
+        font-weight: 600;
+        color: #0A400C;
+        position: relative;
+
+
+    }
+    .textBox>#recycle {
+    width: 100px;
+    animation: float 3s ease-in-out infinite;
+}
+
+    .textBox>#support {
+        width: 100px;
+        position: absolute;
+        right: 8.4%;
+        top: 75%;
+
+
+    }
+
+    .textBox>#propeller {
+        width: 100px;
+        position: absolute;
+        right: 8.4%;
+        top: 75%;
+        animation: rotation 1s linear infinite;
+
+    }
+    
+.zeroWasteAbout{
+    padding: 5rem 5rem;
+}
+}
+@media screen and (max-width:501px) {
+    
+        .textBox>#support {
+        width: 80px;
+        position: absolute;
+        right: 8.4%;
+        top: 110%;
+
+
+    }
+
+    .textBox>#propeller {
+        width: 80px;
+        position: absolute;
+        right: 8.4%;
+        top: 110%;
+        animation: rotation 1s linear infinite;
+
+    }
+     .brandImg{
+    width: 100%; height: 30vh;
+    background-image: url(./../img/yellow-cups1280.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+}
+@media screen and (max-width:352px) {
+        .textBox {
+        font-size: 1.25rem;
+        text-align: center;
+        font-family: 'NoonnuBasicGothicRegular';
+        line-height: 1.8;
+        font-weight: 600;
+        color: #0A400C;
+        position: relative;
+
+
+    }
+        .textBox>#recycle {
+    width: 40px;
+    animation: float 3s ease-in-out infinite;
+}
+   
+        .textBox>#support {
+        width: 40px;
+        position: absolute;
+        right: 8.4%;
+        top: 110%;
+
+
+    }
+
+    .textBox>#propeller {
+        width: 40px;
+        position: absolute;
+        right: 8.4%;
+        top: 110%;
+        animation: rotation 1s linear infinite;
+
+    }
+    .zeroWasteAbout{
+    padding: 5rem 1rem;
+}
+}

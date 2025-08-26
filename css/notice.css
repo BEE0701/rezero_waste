@@ -1,0 +1,206 @@
+main{
+    width: 100%; 
+    background-color: #F6F1E9;
+}
+.noticeTitle{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 200px;
+}
+.noticeTitle>h2{
+     font-family: 'NoonnuBasicGothicRegular';
+     font-size: 4rem;
+     text-align: center;
+     color: #0A400C;
+}
+.acodianBox{
+    margin-top: 100px;
+    border-top: 4px solid #0A400C;
+    padding-bottom: 300px;
+}
+.titleBox{
+    height: 50px;
+    display: flex;
+    padding: 1rem 1.25rem;
+    gap: 1.25rem;
+    align-items: center;
+    border-bottom: 1px solid #0A400C;
+    position: relative;
+    cursor: pointer;
+}
+.titleBox>.imports{
+    display: inline-flex;
+    color: #F6F1E9;
+    font-size: 1rem;
+    border: 1px solid #0A400C;
+    border-radius:1.5rem;
+    background-color: #0A400C;
+    padding: 0.625rem 1rem;
+    box-sizing: border-box;
+}
+
+.titleBox>p{
+    color: #0A400C;
+    font-weight: 600;
+}
+
+
+.button>.vurtical{
+    width: 25px; height: 3px;
+    position: absolute;
+    right: 4.8%; top: 39%;
+}
+.button>.vurtical>img{
+    width: 100%; height: 100%;
+}
+.button>.horizon{
+    width: 3px;  height: 25px; 
+    position: absolute;
+    right: 5.45%; top:45%;
+    transition-duration: 1s;
+
+}
+
+.rotate{
+
+    transform: rotate(90deg);
+}
+
+
+
+.button>.horizon>img{
+   width: 100%; height: 100%;
+}
+
+.noticeBox{
+    padding: 1rem 6.4rem;  
+    box-sizing: border-box;
+}
+.noticeBox>p{
+    color: #3C4A3E;
+}
+@media screen and (max-width:1585px){
+    
+.button>.vurtical{
+    width: 25px; height: 3px;
+    position: absolute;
+    right: 4.8%; top: 39%;
+}
+.button>.vurtical>img{
+    width: 100%; height: 100%;
+}
+.button>.horizon{
+    width: 3px;  height: 25px; 
+    position: absolute;
+    right: 5.5%; top:45%;
+    transition-duration: 1s;
+
+}
+
+}
+@media screen and (max-width:1383px){
+    .button>.vurtical{
+    width: 25px; height: 3px;
+    position: absolute;
+    right: 4.8%; top: 39%;
+}
+.button>.vurtical>img{
+    width: 100%; height: 100%;
+}
+.button>.horizon{
+    width: 3px;  height: 25px; 
+    position: absolute;
+    right: 5.7%; top:45%;
+    transition-duration: 1s;
+
+}
+}
+@media screen and (max-width:1100px){
+.button>.vurtical{
+    width: 25px; height: 3px;
+    position: absolute;
+    right: 4.8%; top: 39%;
+}
+.button>.vurtical>img{
+    width: 100%; height: 100%;
+}
+.button>.horizon{
+    width: 3px;  height: 25px; 
+    position: absolute;
+    right: 5.9%; top:45%;
+    transition-duration: 1s;
+
+}
+}   
+@media screen and (max-width:880px) {
+    .button>.vurtical{
+    width: 25px; height: 3px;
+    position: absolute;
+    right: 4.8%; top: 39%;
+}
+.button>.vurtical>img{
+    width: 100%; height: 100%;
+}
+.button>.horizon{
+    width: 3px;  height: 25px; 
+    position: absolute;
+    right: 6.1%; top:45%;
+    transition-duration: 1s;
+
+}
+}
+@media screen and (max-width:700px){
+        .button>.vurtical{
+    width: 25px; height: 3px;
+    position: absolute;
+    right: 4.8%; top: 39%;
+}
+.button>.vurtical>img{
+    width: 100%; height: 100%;
+}
+.button>.horizon{
+    width: 3px;  height: 25px; 
+    position: absolute;
+    right: 6.6%; top:45%;
+    transition-duration: 1s;
+
+}
+}
+@media screen and(max-width:400px) {
+.button>.vurtical{
+    width: 25px; height: 3px;
+    position: absolute;
+    right: 4.8%; top: 39%;
+}
+.button>.vurtical>img{
+    width: 100%; height: 100%;
+}
+.button>.horizon{
+    width: 3px;  height: 25px; 
+    position: absolute;
+    right: 7%; top:45%;
+    transition-duration: 1s;
+
+}
+}
+@media screen and (max-width:500px){
+.button>.vurtical{
+    width: 25px; height: 3px;
+    position: absolute;
+    right: 4.8%; top: 39%;
+}
+.button>.vurtical>img{
+    width: 100%; height: 100%;
+}
+.button>.horizon{
+    width: 3px;  height: 25px; 
+    position: absolute;
+    right: 8%; top:45%;
+    transition-duration: 1s;
+
+}
+.noticeBox{
+    padding: 1rem 1rem;  
+    box-sizing: border-box;
+}
+}

@@ -1,0 +1,232 @@
+body{
+    
+    background-color:  #F6F1E9;
+}
+main{
+    width: 100%;
+    padding-top: 145px;
+    box-sizing: border-box;
+    padding-bottom: 145px;
+}
+.shopTitle{
+    margin: 5rem 0  5rem;
+}
+main>.shopTitle>h2{
+
+    text-align: center;
+    font-family: 'NoonnuBasicGothicRegular';
+    font-size: 6.5rem;
+    color: #0A400C; 
+    
+} 
+.filterBar{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    
+}
+.filterBar>div{
+     font-family: 'NoonnuBasicGothicRegular';
+    border: 1px solid #0A400C;
+    padding: 0.425rem 1rem;
+    border-radius: 20px;
+    color: #0A400C;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: #0A400C;
+}
+.filterBar>div:hover{
+    background-color: #0A400C;
+    
+    color: #F6F1E9;
+}
+.itemBox.display{
+    display: block;
+}
+
+
+.itemTitleList{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.itemTitleList>li{
+    border: 1px solid #0A400C;
+    border-radius: 30px;
+    padding: 0.5rem 1.875rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'NoonnuBasicGothicRegular';
+    color: #0A400C;
+}
+
+.itemList{
+   
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    justify-content: center;
+}
+.itemList img{
+    width: 27.1vw;
+    height: 60vh;
+    
+    
+}
+.itemBox>figure{
+    width: calc((100 - 40PX)/3);
+}
+
+
+
+.itemBox>figcaption>h3{
+    color: #0A400C ;
+    font-size: 1.2rem;
+    font-weight: 600;
+}   
+.numButton{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 10px;
+}
+
+.numButton button {
+    padding: 0.5rem 1rem;
+    border: 1px solid #0A400C;
+    background-color: #F6F1E9;
+    color: #0A400C;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'NoonnuBasicGothicRegular';
+    font-weight: 600;
+}
+
+.numButton button.active {
+    background-color: #0A400C;
+    color: #F6F1E9;}
+
+@media screen and (max-width:1280px) {
+    .itemList img{
+        width: 27.1vw;
+        height: 40vh;
+    }
+}
+@media screen and (max-width:900px) {
+    
+    main>.shopTitle>h2{
+
+        text-align: center;
+        font-family: 'NoonnuBasicGothicRegular';
+        font-size: 4.5rem;
+        color: #0A400C; 
+        
+    } 
+    .itemTitleList>li{
+        border: 1px solid #0A400C;
+        border-radius: 30px;
+        padding: 0.5rem 1.875rem;
+        font-size: 1rem;
+        font-weight: 600;
+        font-family: 'NoonnuBasicGothicRegular';
+        color: #0A400C;
+    }
+    .itemList img{
+        width: 35vw;
+        height: 30vh;
+    }
+}
+@media screen and (max-width:780px) {
+    .itemTitleList{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    .itemTitleList>li{
+        border: 1px solid #0A400C;
+        border-radius: 30px;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        font-weight: 600;
+        font-family: 'NoonnuBasicGothicRegular';
+        color: #0A400C;
+    }
+}
+@media screen and (max-width:600px) {
+    main>.shopTitle>h2{
+
+        text-align: center;
+        font-family: 'NoonnuBasicGothicRegular';
+        font-size: 2.5rem;
+        color: #0A400C; 
+        
+    } 
+    .itemList{
+   
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 200px;
+    justify-content: flex-start;
+}
+    .itemBox>figure{
+        width: 70vw;
+    }
+      .itemList {
+        padding: 0 5rem;
+        box-sizing: border-box;
+      }
+    .itemList img{
+        width: 100%;
+        height: 40vh;
+    }
+    .itemTitleList{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    .itemTitleList>li{
+        border: 1px solid #0A400C;
+        border-radius: 30px;
+        padding: 0.3rem 0.5rem;
+        font-size: 1rem;
+        font-weight: 600;
+        font-family: 'NoonnuBasicGothicRegular';
+        color: #0A400C;
+    }
+}
+@media screen and (max-width:523px){
+     .itemBox>figure{
+        width:50vw;
+    }
+
+}
+@media screen and (max-width:460px){
+     .itemBox>figure{
+        width:60vw;
+    }
+
+}
+@media screen and (max-width:400px){
+     .itemList {
+        padding: 0 1rem;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+        
+      }
+       .itemBox>figure{
+        width:80vw;
+    }
+
+    .itemList img{
+        width: 100%;
+        height: 30vh;
+    }
+
+}
+    
