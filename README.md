@@ -5,8 +5,9 @@
     <img src="https://capsule-render.vercel.app/api?type=waving&color=0a4001&height=240&text=zero%20waste&animation=&fontColor=ffffff&fontSize=60" />
     </div>
     <div style="text-align: left;"> 
-    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> welcome! </h2>  
-    <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;"> 가득찬 열정으로 퍼블리셔에 도전하고 있는 최혜주 입니다. 저의 첫번째 페이지 재밌게 즐겨주세요! </div> 
+    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> zero waste project </h2>  
+    <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;"> zero waste 상품을 판매하는 사이트 입니다 </div> 
+    <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;"> drectory  = main , shopping , what? ,brand 이렇게 총 4개의 페이지로 구성되어 있습니다. </div> 
     </div>
     <div style="text-align: left;">
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🛠️ Tech Stacks </h2> <br> 
