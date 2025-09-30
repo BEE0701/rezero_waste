@@ -1,5 +1,5 @@
 
-# Project Title
+# zerowaste
 
 <div align= "center">
     <img src="https://capsule-render.vercel.app/api?type=waving&color=0a4001&height=240&text=zero%20waste&animation=&fontColor=ffffff&fontSize=60" />
